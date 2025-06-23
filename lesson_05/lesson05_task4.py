@@ -17,8 +17,8 @@ sleep(2)
 tag_name_inp = driver.find_element(By.CSS_SELECTOR, 'button.radius').click()
 sleep(2)
 
-tag_name_inp = driver.find_element(By.CSS_SELECTOR, ".flash.success").text
-print(tag_name_inp)
+txt= driver.find_element(By.CSS_SELECTOR, ".flash.success").text
+print(txt)
 sleep(2)
 
 driver.quit()

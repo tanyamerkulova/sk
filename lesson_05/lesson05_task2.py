@@ -7,5 +7,5 @@ driver = webdriver.Chrome()
 
 
 driver.get("http://uitestingplayground.com/dynamicid")
-tag_name_inp = driver.find_element(By.CSS_SELECTOR, '.btn.btn-primary').click()
+driver.find_element(By.CSS_SELECTOR, '.btn.btn-primary').click()
 sleep(3)
